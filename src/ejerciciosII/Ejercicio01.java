@@ -9,9 +9,9 @@ public class Ejercicio01 {
         int num2 = 0;
         Scanner lector = new Scanner(System.in);
         
-        System.out.println("Ingrese el valor del primer número: ");
+        System.out.print("Ingrese el valor del primer número: ");
         num1 = lector.nextInt();
-        System.out.println("Ingrese el valor del segundo número: ");
+        System.out.print("Ingrese el valor del segundo número: ");
         num2 = lector.nextInt();
         
         System.out.println("El valor del primer número es: " + num1 + "\nEl valor del segundo número es: " + num2);
